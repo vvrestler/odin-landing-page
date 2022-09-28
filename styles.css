@@ -1,7 +1,7 @@
 body {
     background-color: #1F2937;
     color: white;
-    margin: auto 100px;
+    margin: auto 200px;
 }
 
 button {
@@ -28,7 +28,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin-bottom: 100px;
 }
 
 .header-links {
@@ -37,17 +37,19 @@ li {
 }
 
 .introduction {
-    display: flex;
-    max-height: 400px;
-    margin: auto;
+    display: flex;   
     flex:1;
 }
 
 .introduction-content {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
     flex: 1;
+    max-width: 50%;;
+}
+
+.placeholder-img {
+    max-width: 50%;
 }
 
 .hero {
@@ -56,7 +58,7 @@ li {
 
 .hero.primary {
     font-size: 48px;
-    font-style: ex;
+    font-weight: 800;
 }
 
 .hero.secondary {
@@ -71,10 +73,6 @@ li {
     width: 100px;
     height: 20px;
     flex: none;
-}
-
-.placeholder-img {
-    
 }
 
 * {
