@@ -2,6 +2,7 @@ body {
     background-color: #1F2937;
     color: white;
     margin: auto 200px;
+    font-family: "roboto", sans-serif;
 }
 
 button {
@@ -73,6 +74,11 @@ li {
     width: 100px;
     height: 20px;
     flex: none;
+}
+
+.images {
+    display: flex;
+   
 }
 
 * {
