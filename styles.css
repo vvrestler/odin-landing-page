@@ -4,6 +4,8 @@ body {
     padding: 0;
 }
 
+/*Header styling*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -33,6 +35,8 @@ li {
     align-items: center;
 }
 
+/*Section 1 styling*/
+
 .introduction {
     display: flex;   
     flex:1;
@@ -48,6 +52,7 @@ li {
 
 .placeholder-img {
     max-width: 50%;
+    border-radius: 20px;
 }
 
 .hero {
@@ -74,7 +79,9 @@ li {
     background-color: #3882F6;
 }
 
-.information-2-header {
+/*Section 2 styling*/
+
+.information-header {
     text-align: center;
     font-size: 36px;
     font-weight: 800;
@@ -102,6 +109,5 @@ li {
     text-align: center;
 }
 
-/* * {
-    border: 1px solid black;
-} */
+/*Section 3 styling*/
+
