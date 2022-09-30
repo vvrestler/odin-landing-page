@@ -76,7 +76,7 @@ li {
     align-items: center;
     width: 100px;
     height: 20px;
-    flex: none;
+    border-radius: 5px;
     background-color: #3882F6;
 }
 
