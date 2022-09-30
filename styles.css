@@ -161,6 +161,15 @@ li {
     font-weight: 800;
 }
 
+/*Footer styling*/
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 /* * {
     border: 1px solid black;
 } */
