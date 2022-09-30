@@ -89,7 +89,7 @@ li {
 }
 
 .information {
-   
+   padding-bottom: 150px;
 }
 
 .images {
@@ -111,3 +111,20 @@ li {
 
 /*Section 3 styling*/
 
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-source {
+    text-align: end;
+    font-size: 24px;
+}
+
+* {
+    border: 1px solid black;
+}
