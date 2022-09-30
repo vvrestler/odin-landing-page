@@ -126,6 +126,13 @@ li {
     font-weight: 800;
 }
 
-/* * {
+/*Section 4 styling*/
+
+.call {
+    display: flex;
+    justify-content: space-around;
+}
+
+* {
     border: 1px solid black;
-} */
+}
