@@ -27,7 +27,7 @@ li {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding-bottom: 100px;
+    padding: 0 100px 100px
 }
 
 .header-links {
@@ -41,6 +41,7 @@ li {
     display: flex;   
     flex:1;
     background-color: #1F2937;
+    padding: 0 100px;
 }
 
 .introduction-content {
@@ -81,15 +82,15 @@ li {
 
 /*Section 2 styling*/
 
+.information {
+    padding: 100px;
+ }
+
 .information-header {
     text-align: center;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-}
-
-.information {
-   padding-bottom: 150px;
 }
 
 .images {
@@ -111,8 +112,11 @@ li {
 
 /*Section 3 styling*/
 
-.quote {
+.quote-background {
     background-color: #E5E7EB;
+    padding: 100px;
+}
+.quote { 
     color: #1F2937;
     font-size: 36px;
     display: flex;
